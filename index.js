@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from "mongoose";
 import router from './router.js'
 
-const PORT = process.env.PORT || 4444;
+const PORT = process.env.PORT || 4444
 
 const app = express()
 
